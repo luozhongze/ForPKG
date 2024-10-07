@@ -1,0 +1,47 @@
+#导入某一实体类型
+LOAD CSV WITH HEADERS FROM 'file:///file_name.csv' AS line #file_name为某一实体类型，file_name.csv是该实体类型的csv文件
+MERGE (:file_name { ID: line.ID, name: line.name, LABEL: line.LABEL }) 
+
+#删除某一实体类型
+MATCH (r:`file_name`) DETACH DELETE r #file_name为某一实体类型
+
+#建立所有关系
+LOAD CSV WITH HEADERS FROM 'file:///roles.csv' AS row #roles.csv为所有关系的csv文件
+MATCH (fromNode {ID: row.from}), (toNode {ID: row.to})
+CALL apoc.create.relationship(fromNode, row.relation, {}, toNode) YIELD rel
+RETURN rel
+
+#删除某一关系
+MATCH ()-[r:duty]-() DETACH DELETE r
+
+#删除所有关系
+MATCH ()-[r]-() DETACH DELETE r
+
+#显示所有实体和关系
+MATCH (n) RETURN n
+
+-----------------------------------------------
+
+#file_name.csv的格式，共有10种实体类型
+ID,name,LABEL
+
+#ORG.csv
+ID,name,LABEL
+ORG001,国家林业和草原局,ORG
+ORG002,各省级、市地级党委和政府,ORG
+...
+
+#PER.csv
+ID,name,LABEL
+PER001,国家级自然保护区原住居民,PER
+PER002,赔偿义务人,PER
+...
+
+#roles.csv的格式
+from,to,relation
+
+#roles.csv
+ORG001,ACT001,duty
+ORG007,DOC001,publish
+CONC006,EXP_DEF010,define
+...
