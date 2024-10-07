@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15/"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#belongTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#belongTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#contain"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#cite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#cite">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#classifyTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#classifyTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#contain"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CLS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#contain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#contain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#locate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CLS"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#LOC"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CONC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#LOC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#define -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#define">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CONC"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#EXP_DEF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#duty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#duty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#PER"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#employ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#employ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#PER"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#hasRight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#hasRight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#PER"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#isCited -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#isCited">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#isProhibited -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#isProhibited">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#PER"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#isPublished -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#isPublished">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#locate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#locate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#LOC"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#LOC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#publish -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#publish">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#relevant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#relevant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#relevant"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CONC"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#EXP_DEF"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CONC"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#EXP_DEF"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#workFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#workFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#PER"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ACT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CLS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CLS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CONC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#CONC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#DOC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#EXP_DEF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#EXP_DEF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#LOC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#LOC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#OBJ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#ORG"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#PER -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#PER"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/6/untitled-ontology-15#STATE"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
