@@ -6,8 +6,8 @@ Jingyun Sun, Zhongze Luo*  <br>
 🌲Northeast Forestry University, Harbin, China  <br>
 *Corresponding author, <em>Member, IEEE</em>  <br>
 Email: sunjingyun@nefu.edu.cn, luozhongze0928@foxmail.com <br>
-Paper (journal version): [https://arxiv.org/abs/2411.11090v1](https://arxiv.org/abs/2411.11090v1) <br>
-IJCNN 2025: [https://arxiv.org/abs/2411.11090v2](https://arxiv.org/abs/2411.11090v2)
+Paper (journal version): [https://arxiv.org/pdf/2411.11090v1](https://arxiv.org/pdf/2411.11090v1) <br>
+IJCNN 2025: [https://arxiv.org/pdf/2411.11090v2](https://arxiv.org/pdf/2411.11090v2)
 
 </div>
 
