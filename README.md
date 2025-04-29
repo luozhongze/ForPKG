@@ -1,7 +1,7 @@
 ### ForPKG: A Framework for Constructing Forestry Policy Knowledge Graph and Application Analysis
 
-<p align="center">🌲Jingyun Sun, Northeast Forestry University, Harbin, China<p>
-<p align="center">🌲Zhongze Luo*, Northeast Forestry University, Harbin, China<p>
+<p align="center">Jingyun Sun, Zhongze Luo*<p>
+<p align="center">🌲Northeast Forestry University, Harbin, China<p>
 <p align="center">*Corresponding author, *Member, IEEE*<p>
 <p align="center">Email: sunjingyun@nefu.edu.cn, luozhongze0928@foxmail.com<p>
 
