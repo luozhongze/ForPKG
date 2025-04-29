@@ -13,9 +13,9 @@ A policy knowledge graph can provide decision support for tasks such as project 
 
 <div align="center">
 
-Paper (journal version): [https://arxiv.org/pdf/2411.11090v1](https://arxiv.org/pdf/2411.11090v1) <br>
+**Paper (journal version):** [https://arxiv.org/pdf/2411.11090v1](https://arxiv.org/pdf/2411.11090v1) <br>
 
-IJCNN 2025: [https://arxiv.org/pdf/2411.11090v2](https://arxiv.org/pdf/2411.11090v2)
+**IJCNN 2025:** [https://arxiv.org/pdf/2411.11090v2](https://arxiv.org/pdf/2411.11090v2)
 
 </div>
 
