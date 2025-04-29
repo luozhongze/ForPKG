@@ -22,6 +22,7 @@ IJCNN 2025: [https://arxiv.org/pdf/2411.11090v2](https://arxiv.org/pdf/2411.1109
 </div>
 
 ## Steps
+
 1. View the ontology on Protege
 
 Ontology are saved in the ontology folder.
