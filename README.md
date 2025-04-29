@@ -4,7 +4,7 @@
 
 Jingyun Sun, Zhongze Luo*  <br>
 🌲Northeast Forestry University, Harbin, China  <br>
-<em>Corresponding author, Member, IEEE</em>  <br>
+*Corresponding author, <em>Member, IEEE</em>  <br>
 Email: sunjingyun@nefu.edu.cn, luozhongze0928@foxmail.com
 
 </div>
