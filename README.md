@@ -41,4 +41,4 @@ cd D:\neo4j-community-5.18.1\bin
 neo4j restart
 ```
 
-3. Click the database icon and click :dbs of DBMS
+3. Click the database icon and click ``:dbs`` of DBMS
