@@ -19,7 +19,7 @@ A policy knowledge graph can provide decision support for tasks such as project 
 
 </div>
 
-![img](./ForPKG.pdf)
+![img](./ForPKG.png)
 
 ## Steps
 
