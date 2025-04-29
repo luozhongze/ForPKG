@@ -34,7 +34,7 @@ D:\neo4j-community-5.18.1\import
 ```
 
 2. Restart neo4j
-On the computer, type "cmd" to enter the command line. Go to ``neo4j-community-4.3.18\bin``, type ``neo4j restart`` to restart neo4j. In the browser, type ``localhost:7474/browser/`` to enter neo4j.
+On the computer, type ``cmd`` to enter the command line. Go to ``neo4j-community-4.3.18\bin``, type ``neo4j restart`` to restart neo4j. In the browser, type ``localhost:7474/browser/`` to enter neo4j.
 
 ```
 cd D:\neo4j-community-5.18.1\bin
