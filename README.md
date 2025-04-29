@@ -42,3 +42,49 @@ neo4j restart
 ```
 
 3. Click the database icon and click ``:dbs`` of DBMS
+
+## Explanation
+
+```
+Neo4j:
+
+1. Import a specific entity type
+LOAD CSV WITH HEADERS FROM 'file:///file_name.csv' AS line # file_name represents a specific entity type, and file_name.csv is the CSV file for that entity type  
+MERGE (:file_name { ID: line.ID, name: line.name, LABEL: line.LABEL })
+
+2. Delete a specific entity type  
+MATCH (r:`file_name`) DETACH DELETE r  // file_name represents a specific entity type  
+
+3. Create all relationships  
+LOAD CSV WITH HEADERS FROM 'file:///roles.csv' AS row  // roles.csv is the CSV file containing all relationships  
+MATCH (fromNode {ID: row.from}), (toNode {ID: row.to})  
+CALL apoc.create.relationship(fromNode, row.relation, {}, toNode) YIELD rel  
+RETURN rel  
+
+4. Delete a specific relationship  
+MATCH ()-[r:duty]-() DETACH DELETE r  
+
+5. Delete all relationships  
+MATCH ()-[r]-() DETACH DELETE r  
+
+6. Display all entities and relationships  
+MATCH (n) RETURN n  
+
+The format of file_name.csv, with a total of 10 entity types  
+ID,name,LABEL  
+
+ORG.csv  
+ID,name,LABEL  
+ORG001,国家林业和草原局,ORG  
+ORG002,各省级、市地级党委和政府,ORG  
+...  
+
+The format of roles.csv  
+from,to,relation  
+
+roles.csv  
+ORG001,ACT001,duty  
+ORG007,DOC001,publish  
+CONC006,EXP_DEF010,define  
+...
+```
