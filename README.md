@@ -19,6 +19,8 @@ A policy knowledge graph can provide decision support for tasks such as project 
 
 </div>
 
+![img](./ForPKG.pdf)
+
 ## Steps
 
 ### View the ontology on Protege
