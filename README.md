@@ -1,4 +1,4 @@
-## ForPKG: A Framework for Constructing Forestry Policy Knowledge Graph and Application Analysis
+## ForPKG: A Framework for Constructing Forestry Policy Knowledge Graph and Application Analysis (IJCNN2025)
 
 <div align="center">
 
