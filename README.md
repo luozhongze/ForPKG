@@ -90,9 +90,11 @@ CONC006,EXP_DEF010,define
 ```
 ## Citation
 
+```
 @article{sun2024forpkg,
   title={ForPKG-1.0: A Framework for Constructing Forestry Policy Knowledge Graph and Application Analysis},
   author={Sun, Jingyun and Luo, Zhongze},
   journal={arXiv preprint arXiv:2411.11090},
   year={2024}
 }
+```
