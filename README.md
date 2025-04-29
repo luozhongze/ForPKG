@@ -23,13 +23,13 @@ IJCNN 2025: [https://arxiv.org/pdf/2411.11090v2](https://arxiv.org/pdf/2411.1109
 
 ## Steps
 
-1. View the ontology on Protege
+### View the ontology on Protege
 
-Ontology are saved in the ontology folder.
+Ontology are saved in the ``ontology`` folder.
 
-2. View the knowledge graph on Neo4j
+### View the knowledge graph on Neo4j
 
-Node and relationship data are saved in the import folder in CSV UTF-8 format. Save this folder in the local Neo4j path, and then ForPKG can be stored and displayed.
+Node and relationship data are saved in the ``import`` folder in CSV UTF-8 format. Save this folder in the local Neo4j path, and then ForPKG can be stored and displayed.
 
 ```
 D:\neo4j-community-5.18.1\import
