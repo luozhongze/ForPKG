@@ -24,7 +24,7 @@ A policy knowledge graph can provide decision support for tasks such as project 
 
 ### View the ontology on Protege
 
-Ontology are saved in the ``ontology`` folder. After opening ``Protege.exe``, click File-Open and select ``on.raf`` to open it
+Ontology are saved in the ``ontology`` folder. After opening ``Protege.exe``, click File-Open and select ``on.rdf`` to open it
 
 ### View the knowledge graph on Neo4j
 
