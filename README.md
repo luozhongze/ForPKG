@@ -2,7 +2,7 @@
 
 <div align="center">
 
-Jingyun Sun, Zhongze Luo*  <br>
+Jingyun Sun, [Zhongze Luo](https://luozhongze.github.io)*  <br>
 🌲Northeast Forestry University, Harbin, China  <br>
 *Corresponding author, <em>Member, IEEE</em>  <br>
 Email: sunjingyun@nefu.edu.cn, luozhongze0928@foxmail.com <br>
