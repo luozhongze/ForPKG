@@ -44,9 +44,9 @@ neo4j restart
 
 ## Explanation
 
-```
-Neo4j:
+### Neo4j
 
+```
 1. Import a specific entity type
 LOAD CSV WITH HEADERS FROM 'file:///file_name.csv' AS line # file_name represents a specific entity type, and file_name.csv is the CSV file for that entity type  
 MERGE (:file_name { ID: line.ID, name: line.name, LABEL: line.LABEL })
@@ -68,8 +68,9 @@ MATCH ()-[r]-() DETACH DELETE r
 
 6. Display all entities and relationships  
 MATCH (n) RETURN n  
-
-The format of file_name.csv, with a total of 10 entity types  
+```
+### The format of file_name.csv, with a total of 10 entity types  
+```
 ID,name,LABEL  
 
 ORG.csv  
@@ -77,8 +78,9 @@ ID,name,LABEL
 ORG001,国家林业和草原局,ORG  
 ORG002,各省级、市地级党委和政府,ORG  
 ...  
-
-The format of roles.csv  
+```
+### The format of roles.csv  
+```
 from,to,relation  
 
 roles.csv  
