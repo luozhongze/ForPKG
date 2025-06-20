@@ -16,9 +16,20 @@ A policy knowledge graph can provide decision support for tasks such as project 
 **Paper (journal version):** [https://arxiv.org/abs/2411.11090v1](https://arxiv.org/abs/2411.11090v1) <br>
 **IJCNN 2025:** [https://arxiv.org/abs/2411.11090v2](https://arxiv.org/abs/2411.11090v2)
 
-![png](./POSTER.png)
-
 </div>
+
+## Citation
+
+```
+@article{sun2024forpkg,
+  title={ForPKG-1.0: A Framework for Constructing Forestry Policy Knowledge Graph and Application Analysis},
+  author={Sun, Jingyun and Luo, Zhongze},
+  journal={arXiv preprint arXiv:2411.11090},
+  year={2024}
+}
+```
+
+![png](./POSTER.png)
 
 ## Steps
 
@@ -90,14 +101,4 @@ ORG001,ACT001,duty
 ORG007,DOC001,publish  
 CONC006,EXP_DEF010,define  
 ...
-```
-## Citation
-
-```
-@article{sun2024forpkg,
-  title={ForPKG-1.0: A Framework for Constructing Forestry Policy Knowledge Graph and Application Analysis},
-  author={Sun, Jingyun and Luo, Zhongze},
-  journal={arXiv preprint arXiv:2411.11090},
-  year={2024}
-}
 ```
